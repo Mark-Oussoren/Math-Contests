@@ -26,8 +26,8 @@ int main() {
     comet_num = comet_num % 47;
     group_num = group_num % 47;
     if (comet_num == group_num) {
-        fout << "GO" << endl
+        fout << "GO" << endl;
     } else {
-        fout << "STAY" << endl
+        fout << "STAY" << endl;
     }
 }
