@@ -23,6 +23,8 @@ int main() {
     for (char & c : group) {
         group_num *= int(c);
     }
+    cout << comet_num;
+    cout << group_num;
     comet_num = comet_num % 47;
     group_num = group_num % 47;
     if (comet_num == group_num) {
